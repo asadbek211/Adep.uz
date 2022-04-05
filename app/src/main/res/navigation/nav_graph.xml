@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/home">
+
+    <fragment
+        tools:layout="@layout/fragment_home"
+        android:id="@+id/home"
+        android:name="com.bizmiz.adepuz.ui.home.HomeFragment"
+        android:label="home" />
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.bizmiz.adepuz.ui.settings.SettingsFragment"
+        android:label="settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/besUstun"
+        android:name="com.bizmiz.adepuz.ui.besUstun.BesUstunFragment"
+        android:label="fragment_bes_ustun"
+        tools:layout="@layout/fragment_bes_ustun" />
+</navigation>

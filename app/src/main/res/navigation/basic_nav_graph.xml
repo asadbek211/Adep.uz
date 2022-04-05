@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/basic_nav_graph"
+    app:startDestination="@id/basicFragment">
+
+    <fragment
+        android:id="@+id/besUstunFragment"
+        android:name="com.bizmiz.adepuz.ui.besUstun.BesUstunFragment"
+        android:label="fragment_bes_ustun"
+        tools:layout="@layout/fragment_bes_ustun" >
+        <action
+            android:id="@+id/action_besUstunFragment_to_basicFragment"
+            app:destination="@id/basicFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_basic"
+        android:id="@+id/basicFragment"
+        android:name="com.bizmiz.adepuz.ui.basic.BasicFragment"
+        android:label="BasicFragment" >
+        <action
+            android:id="@+id/action_basicFragment_to_besUstunFragment"
+            app:destination="@id/besUstunFragment" />
+    </fragment>
+</navigation>

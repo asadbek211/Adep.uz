@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Adep.uz</string>
+    <string name="fajr">Таң</string>
+    <string name="sunrise">Қуяш</string>
+    <string name="dhuhr">Пешин</string>
+    <string name="asr">Аср</string>
+    <string name="maghrib">Шaм</string>
+    <string name="isha">Қуптан</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
