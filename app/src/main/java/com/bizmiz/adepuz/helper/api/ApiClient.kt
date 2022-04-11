@@ -1,4 +1,4 @@
-package com.bizmiz.adepuz.helper.retrofit
+package com.bizmiz.adepuz.helper.api
 
 import com.bizmiz.adepuz.utils.Constant
 import com.google.gson.Gson

@@ -22,5 +22,13 @@
         <action
             android:id="@+id/action_basicFragment_to_besUstunFragment"
             app:destination="@id/besUstunFragment" />
+        <action
+            android:id="@+id/action_basicFragment_to_postInfoFragment"
+            app:destination="@id/postInfoFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/postInfoFragment"
+        android:name="com.bizmiz.adepuz.ui.postInfo.PostInfoFragment"
+        android:label="fragment_post_info"
+        tools:layout="@layout/fragment_post_info" />
 </navigation>

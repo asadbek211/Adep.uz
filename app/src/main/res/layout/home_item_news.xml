@@ -6,7 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/home_nearby_card"
+        android:id="@+id/home_card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
@@ -43,7 +43,7 @@
                 android:padding="10dp"
                 android:text="Shavkat Mirziyoyev Buxoriy qabrini ziyorat qildi"
                 android:textColor="@color/black_900"
-                android:textSize="16.5sp"
+                android:textSize="16.5dp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
@@ -51,18 +51,17 @@
                 app:layout_constraintTop_toBottomOf="@+id/item_news_image" />
 
             <TextView
-                android:id="@+id/newsCountry"
+                android:id="@+id/publishData"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:background="@color/white"
-                android:drawableStart="@drawable/ic_baseline_location_news"
                 android:drawablePadding="2dp"
                 android:gravity="center_vertical"
                 android:paddingStart="18dp"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:layout_marginTop="5dp"
-                android:text="Uzbekistan"
+                android:text="21.08.2000"
                 android:textColor="@color/purple_500"
                 android:textSize="15sp"
                 app:layout_constraintBottom_toBottomOf="@+id/newsEyeCount"
@@ -91,7 +90,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toEndOf="@+id/newsCountry"
+                app:layout_constraintStart_toEndOf="@+id/publishData"
                 app:layout_constraintTop_toBottomOf="@+id/item_news_name"
                 app:layout_constraintVertical_bias="0.0" />
         </androidx.constraintlayout.widget.ConstraintLayout>
