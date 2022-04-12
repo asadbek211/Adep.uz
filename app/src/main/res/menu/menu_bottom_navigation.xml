@@ -4,9 +4,6 @@
     <item android:id="@+id/home"
         android:title="Bas bet"
         android:icon="@drawable/home_item"/>
-<!--    <item android:id="@+id/besUstun"-->
-<!--        android:title="Bes farz"-->
-<!--        android:icon="@drawable/besh_fars_outline"/>-->
     <item
         android:id="@+id/action_empty"
         android:title=""
@@ -14,8 +11,9 @@
         android:checked="false"
         app:showAsAction="always"
         android:enabled="false"/>
-    <item android:id="@+id/settings"
-        android:title="Sazlamalar"
-        android:icon="@drawable/settings_item"/>
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/profile_item"
+        android:title="Profile" />
 
 </menu>

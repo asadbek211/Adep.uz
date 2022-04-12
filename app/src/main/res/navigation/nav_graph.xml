@@ -11,10 +11,10 @@
         android:name="com.bizmiz.adepuz.ui.home.HomeFragment"
         android:label="home" />
     <fragment
-        android:id="@+id/settings"
-        android:name="com.bizmiz.adepuz.ui.settings.SettingsFragment"
-        android:label="settings"
-        tools:layout="@layout/fragment_settings" />
+        android:id="@+id/profile"
+        android:name="com.bizmiz.adepuz.ui.profile.ProfileFragment"
+        android:label="profile"
+        tools:layout="@layout/fragment_profile" />
     <fragment
         android:id="@+id/besUstun"
         android:name="com.bizmiz.adepuz.ui.besUstun.BesUstunFragment"
