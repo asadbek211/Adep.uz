@@ -48,3 +48,18 @@ data class UsefulData(
     val user_id: String,
     val views: String
 )
+@Entity(tableName = "posts")
+data class PostsData(
+    @PrimaryKey(autoGenerate = false)
+    val id: Int,
+    val category_id: String,
+    val created_at: String,
+    val description: String,
+    val image: String,
+    val published_at: String,
+    val slug: String,
+    val title: String,
+    val updated_at: String,
+    val user_id: String,
+    val views: String
+)

@@ -1,5 +1,6 @@
 package com.bizmiz.adepuz.ui.home
 
+import android.content.SharedPreferences
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -22,6 +23,12 @@ class GetDataViewModel(private val networkHelper: NetworkHelper) : ViewModel() {
     private val getUsefulPosts: MutableLiveData<Resource<List<UsefulData>?>> = MutableLiveData()
     val usefulPosts: LiveData<Resource<List<UsefulData>?>>
         get() = getUsefulPosts
+    private val getPosts: MutableLiveData<Resource<List<PostsData>?>> = MutableLiveData()
+    val posts: LiveData<Resource<List<PostsData>?>>
+        get() = getPosts
+    private val updateResult: MutableLiveData<Resource<String>> = MutableLiveData()
+    val updateView: LiveData<Resource<String>>
+        get() = updateResult
 
     fun getArticles() {
         networkHelper.getArticle("articles", {
@@ -46,12 +53,27 @@ class GetDataViewModel(private val networkHelper: NetworkHelper) : ViewModel() {
             getUsefulPosts.value = Resource.error(it)
         })
     }
-
+    fun getPosts(
+        prefs: SharedPreferences
+    ) {
+        networkHelper.getPosts("posts",prefs, {
+            getPosts.value = Resource.success(it)
+        }, {
+            getPosts.value = Resource.error(it)
+        })
+    }
     fun getDistrict(url: String) {
         networkHelper.getDistrict(url, {
             setDistrict.value = Resource.success(it)
         }, {
             setDistrict.value = Resource.error(it)
+        })
+    }
+    fun updateView(id: Int,views: String) {
+        networkHelper.updateView(id,views, {
+            updateResult.value = Resource.success(it)
+        }, {
+            updateResult.value = Resource.error(it)
         })
     }
 }

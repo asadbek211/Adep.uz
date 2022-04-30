@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Adep.uz</string>
+    <string name="fajr">Tań</string>
+    <string name="sunrise">Quyash</string>
+    <string name="dhuhr">Peshin</string>
+    <string name="asr">Ásir</string>
+    <string name="maghrib">Sham</string>
+    <string name="isha">Xuftan</string>
+    <string name="joylashuvni_olish_uchun_bosing">Jaylasıwdı alıw ushın basıń</string>
+    <string name="maqalalar">Maqalalar </string>
+    <string name="k_birek">Kóbirek</string>
+    <string name="paydali_postlar">Paydalı postlar</string>
+    <string name="e_so_ja_al_qlar">Eń sońǵı jańalıqlar</string>
+    <string name="sozlamalar">Sazlamalar</string>
+    <string name="ulashish">Jalǵawısh</string>
+    <string name="privacy_policy">Jasırınlıq siyasatı</string>
+    <string name="bizning_manzil">Biziń mánzil</string>
+    <string name="dastur_haqida">Programma haqqında</string>
+    <string name="bas_bet">Bas bet</string>
+    <string name="profile">Profil</string>
+    <string name="iyman">Iyman</string>
+    <string name="namaz">Namaz</string>
+    <string name="oroza">Oraza</string>
+    <string name="zakat">Zakat</string>
+    <string name="xaj">Xaj</string>
+    <string name="sevimli_postlar">Ardaqlı postlar</string>
+    <string name="ilova_versiyasi_1_0_0">Qosımsha versiyası: 1.0.0</string>
+    <string name="dasturchi_satimov_a">Programmist: @Satimov_A</string>
+    <string name="til">Til</string>
+    <string name="o_zbek_lotin">Ózbek (Lotin)</string>
+    <string name="qaraqalpaq_lotin">Qaraqalpaq (Lotin)</string>
+    <string name="o_zbek_krill">Ózbek (Krill)</string>
+    <string name="qaralpaq_krill">Qaraqalpaq (Krill)</string>
+    <string name="internet_net">Internetge jalǵanbaǵansız</string>
+    <string name="net_location">Jaylasıw alinbadi!</string>
+    <string name="saralangan_postlar_yo_q">Saralanǵan postlar joq</string>
+    <string name="net_information">Malumot joq</string>
+    <string name="name">"Taxiatosh rayonı Keneges OFY Keneges awıl 59 -úy \" Muhammad Murod eshon\" jome meshiti"</string>
+    <string name="besh_ustun">Bes ústin</string>
+    <string name="jami">"Жәми: "</string>
+</resources>

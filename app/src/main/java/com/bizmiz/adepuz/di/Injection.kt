@@ -11,7 +11,7 @@ import org.koin.dsl.module
 val dataModule = module {
     single { ApiClient.getClient() }
     single { PostsDatabase.initDatabase(get()) }
-    single { NetworkHelper(get(),get()) }
+    single { NetworkHelper(get(),get(),get()) }
 }
 val viewModelModule = module {
     viewModel {GetDataViewModel(get())}

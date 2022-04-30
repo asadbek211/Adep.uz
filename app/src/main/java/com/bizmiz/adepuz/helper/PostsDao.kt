@@ -6,6 +6,7 @@ import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import com.bizmiz.adepuz.model.ArticlesData
 import com.bizmiz.adepuz.model.NewsData
+import com.bizmiz.adepuz.model.PostsData
 import com.bizmiz.adepuz.model.UsefulData
 
 @Dao
@@ -19,6 +20,9 @@ interface PostsDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun getUsefulInsert(usefulList: List<UsefulData>)
 
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    fun getPostsInsert(posts: List<PostsData>)
+
     @Query("select * from articles")
     fun getArticles(): List<ArticlesData>
 
@@ -27,4 +31,7 @@ interface PostsDao {
 
     @Query("select * from useful")
     fun getUseful(): List<UsefulData>
+
+    @Query("select * from posts")
+    fun getPosts(): List<PostsData>
 }

@@ -2,7 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item android:id="@+id/home"
-        android:title="Bas bet"
+        android:title="@string/bas_bet"
         android:icon="@drawable/home_item"/>
     <item
         android:id="@+id/action_empty"
@@ -14,6 +14,6 @@
     <item
         android:id="@+id/profile"
         android:icon="@drawable/profile_item"
-        android:title="Profile" />
+        android:title="@string/profile" />
 
 </menu>

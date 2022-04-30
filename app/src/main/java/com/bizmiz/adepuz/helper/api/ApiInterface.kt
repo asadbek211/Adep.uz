@@ -1,13 +1,9 @@
 package com.bizmiz.adepuz.helper.api
 
-import com.bizmiz.adepuz.model.ArticlesData
-import com.bizmiz.adepuz.model.NewsData
-import com.bizmiz.adepuz.model.UsefulData
+import com.bizmiz.adepuz.model.*
 import com.bizmiz.adepuz.model.location_model.Result
 import retrofit2.Call
-import retrofit2.http.GET
-import retrofit2.http.Path
-import retrofit2.http.Url
+import retrofit2.http.*
 
 interface ApiInterface {
     @GET("api/{pathName}")
@@ -25,6 +21,19 @@ interface ApiInterface {
         @Path("pathName") pathName: String
     ): Call<List<UsefulData>>
 
+    @GET("api/{pathName}")
+    fun getPosts(
+        @Path("pathName") pathName: String
+    ): Call<List<PostsData>>
+
     @GET
     fun getDistrict(@Url url: String): Call<Result>
+
+
+    @FormUrlEncoded
+    @PUT("api/post/update/{id}")
+    fun updateView(
+        @Path("id") id: Int,
+        @Field("views") views: String
+    ): Call<PutResponse>
 }

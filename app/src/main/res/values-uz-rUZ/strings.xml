@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Adep.uz</string>
+    <string name="fajr">Tong</string>
+    <string name="sunrise">Quyosh</string>
+    <string name="dhuhr">Peshin</string>
+    <string name="asr">Аsr</string>
+    <string name="maghrib">Shom</string>
+    <string name="isha">Xufton</string>
+    <string name="joylashuvni_olish_uchun_bosing">Joylashuvni olish uchun bosing</string>
+    <string name="maqalalar">Maqolalar</string>
+    <string name="k_birek">Ko\'proq</string>
+    <string name="paydali_postlar">Foydali postlar</string>
+    <string name="e_so_ja_al_qlar">Eng so\'ngi yangiliklar</string>
+    <string name="sozlamalar">Sozlamalar</string>
+    <string name="ulashish">Ulashish</string>
+    <string name="privacy_policy">Maxfiylik siyosati</string>
+    <string name="bizning_manzil">Bizning manzil</string>
+    <string name="dastur_haqida">Dastur haqida</string>
+    <string name="bas_bet">Bosh sahifa</string>
+    <string name="profile">Profil</string>
+    <string name="iyman">Iymon</string>
+    <string name="namaz">Nomoz</string>
+    <string name="oroza">Ro\'za</string>
+    <string name="zakat">Zakot</string>
+    <string name="xaj">Haj</string>
+    <string name="sevimli_postlar">Sevimli postlar</string>
+    <string name="ilova_versiyasi_1_0_0">Ilova versiyasi: 1.0.0</string>
+    <string name="dasturchi_satimov_a">Dasturchi: @Satimov_A</string>
+    <string name="til">Til</string>
+    <string name="o_zbek_lotin">O\'zbek (Lotin)</string>
+    <string name="qaraqalpaq_lotin">Qoraqalpoq (Lotin)</string>
+    <string name="o_zbek_krill">O\'zbek (Krill)</string>
+    <string name="qaralpaq_krill">Qoraqalpoq (Krill)</string>
+    <string name="internet_net">Internetga ulanmagansiz</string>
+    <string name="net_location">Joylashuv olinmadi!</string>
+    <string name="saralangan_postlar_yo_q">Saralangan postlar yo\'q</string>
+    <string name="net_information">Malumot yo\'q</string>
+    <string name="name">"Taxiatosh tumani Keneges OFY Keneges ovul 59-uy \"Muhammad Murod eshon\" jome masjidi"</string>
+    <string name="besh_ustun">Besh ustun</string>
+    <string name="jami">"Jami: "</string>
+</resources>

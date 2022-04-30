@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/basic_nav_graph"
-    app:startDestination="@id/basicFragment">
+    app:startDestination="@id/splashFragment">
 
     <fragment
         android:id="@+id/besUstunFragment"
@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_besUstunFragment_to_basicFragment"
             app:destination="@id/basicFragment" />
+        <action
+            android:id="@+id/action_besUstunFragment_to_containerFragment"
+            app:destination="@id/containerFragment" />
     </fragment>
     <fragment
         tools:layout="@layout/fragment_basic"
@@ -25,10 +28,101 @@
         <action
             android:id="@+id/action_basicFragment_to_postInfoFragment"
             app:destination="@id/postInfoFragment" />
+        <action
+            android:id="@+id/basicFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_basicFragment_to_compassFragment"
+            app:destination="@id/compassFragment" />
+        <action
+            android:id="@+id/action_basicFragment_to_tasbeehFragment"
+            app:destination="@id/tasbeehFragment" />
+        <action
+            android:id="@+id/action_basicFragment_to_settingsFragment2"
+            app:destination="@id/settingsFragment2" />
+        <action
+            android:id="@+id/action_basicFragment_to_ourAddressFragment"
+            app:destination="@id/ourAddressFragment" />
     </fragment>
     <fragment
         android:id="@+id/postInfoFragment"
         android:name="com.bizmiz.adepuz.ui.postInfo.PostInfoFragment"
         android:label="fragment_post_info"
         tools:layout="@layout/fragment_post_info" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.bizmiz.adepuz.ui.profile.about.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/containerFragment"
+        android:name="com.bizmiz.adepuz.ui.besUstun.conatainer.ContainerFragment"
+        android:label="fragment_container"
+        tools:layout="@layout/fragment_container" />
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.bizmiz.adepuz.ui.splash.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_basicFragment"
+            app:destination="@id/basicFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashFragment_to_startLanguageFragment"
+            app:destination="@id/startLanguageFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/compassFragment"
+        android:name="com.bizmiz.adepuz.ui.home.compass.CompassFragment"
+        android:label="fragment_compass"
+        tools:layout="@layout/fragment_compass" />
+    <fragment
+        android:id="@+id/tasbeehFragment"
+        android:name="com.bizmiz.adepuz.ui.home.tasbeeh.TasbeehFragment"
+        android:label="fragment_tasbeeh"
+        tools:layout="@layout/fragment_tasbeeh" />
+    <fragment
+        android:id="@+id/startLocationFragment"
+        android:name="com.bizmiz.adepuz.ui.start.start_location.StartLocationFragment"
+        android:label="fragment_start_location"
+        tools:layout="@layout/fragment_start_location" >
+        <action
+            android:id="@+id/action_startLocationFragment_to_basicFragment"
+            app:destination="@id/basicFragment"
+            app:popUpTo="@id/startLocationFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/startLanguageFragment"
+        android:name="com.bizmiz.adepuz.ui.start.start_language.StartLanguageFragment"
+        android:label="fragment_start_language"
+        tools:layout="@layout/fragment_start_language" >
+        <action
+            android:id="@+id/action_startLanguageFragment_to_startLocationFragment"
+            app:destination="@id/startLocationFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_settings"
+        android:id="@+id/settingsFragment2"
+        android:name="com.bizmiz.adepuz.ui.profile.settings.SettingsFragment"
+        android:label="SettingsFragment" >
+        <action
+            android:id="@+id/action_settingsFragment2_to_languageFragment2"
+            app:destination="@id/languageFragment2" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_language"
+        android:id="@+id/languageFragment2"
+        android:name="com.bizmiz.adepuz.ui.profile.settings.language.LanguageFragment"
+        android:label="LanguageFragment" />
+    <fragment
+        android:id="@+id/ourAddressFragment"
+        android:name="com.bizmiz.adepuz.ui.profile.address.OurAddressFragment"
+        android:label="fragment_our_address"
+        tools:layout="@layout/fragment_our_address" />
 </navigation>
