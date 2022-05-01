@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.Adepuz" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+    <style name="Theme.Adepuz" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -22,5 +22,8 @@
 <!--        <item name="android:textStyle">bold</item>-->
         <item name="android:textColor">@color/grey_600</item>
         <item name="android:fontFamily">@font/milliard_medium</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.App.CornerSizeItem" parent="">
+        <item name="cornerSize">20dp</item>
     </style>
 </resources>

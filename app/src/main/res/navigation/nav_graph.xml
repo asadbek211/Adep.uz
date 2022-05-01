@@ -9,15 +9,36 @@
         tools:layout="@layout/fragment_home"
         android:id="@+id/home"
         android:name="com.bizmiz.adepuz.ui.home.HomeFragment"
-        android:label="home" />
+        android:label="home" >
+        <action
+            android:id="@+id/action_home_to_articlesFragment"
+            app:destination="@id/articlesFragment" />
+        <action
+            android:id="@+id/action_home_to_usefulFragment"
+            app:destination="@id/usefulFragment" />
+    </fragment>
     <fragment
         android:id="@+id/profile"
         android:name="com.bizmiz.adepuz.ui.profile.ProfileFragment"
         android:label="profile"
-        tools:layout="@layout/fragment_profile" />
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profile_to_favouriteFragment"
+            app:destination="@id/favouriteFragment" />
+    </fragment>
     <fragment
-        android:id="@+id/besUstun"
-        android:name="com.bizmiz.adepuz.ui.besUstun.BesUstunFragment"
-        android:label="fragment_bes_ustun"
-        tools:layout="@layout/fragment_bes_ustun" />
+        android:id="@+id/favouriteFragment"
+        android:name="com.bizmiz.adepuz.ui.favourite.FavouriteFragment"
+        android:label="fragment_favourite"
+        tools:layout="@layout/fragment_favourite" />
+    <fragment
+        android:id="@+id/articlesFragment"
+        android:name="com.bizmiz.adepuz.ui.home.articles.ArticlesFragment"
+        android:label="fragment_articles"
+        tools:layout="@layout/fragment_articles" />
+    <fragment
+        android:id="@+id/usefulFragment"
+        android:name="com.bizmiz.adepuz.ui.home.paydali.UsefulFragment"
+        android:label="fragment_useful"
+        tools:layout="@layout/fragment_useful" />
 </navigation>

@@ -3,6 +3,48 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/drawable-v24/shape.xml" value="0.144" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/drawable-v24/shape_circle.xml" value="0.144" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/drawable-v24/shape_stroke.xml" value="0.144" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/drawable/click_back.xml" value="0.144" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/drawable/click_selector.xml" value="0.144" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/drawable/click_selector_stroke.xml" value="0.144" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/drawable/gradient_tasbeeh.xml" value="0.144" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/drawable/ic_arrow_back_black.xml" value="0.144" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/drawable/ic_btn_background.xml" value="0.144" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/drawable/ic_compass.xml" value="0.144" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/drawable/ic_language.xml" value="0.144" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/drawable/ic_vibration.xml" value="0.144" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/drawable/ic_volume_on.xml" value="0.144" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/drawable/settings_selector.xml" value="0.144" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/drawable/shape_btn.xml" value="0.144" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/drawable/shape_view.xml" value="0.144" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/layout/activity_main.xml" value="0.209375" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/layout/bes_ustun_item.xml" value="0.209375" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/layout/fragment_about.xml" value="0.209375" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/layout/fragment_articles.xml" value="0.209375" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/layout/fragment_basic.xml" value="0.209375" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/layout/fragment_bes_ustun.xml" value="0.209375" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/layout/fragment_compass.xml" value="0.209375" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/layout/fragment_container.xml" value="0.209375" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/layout/fragment_favourite.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/layout/fragment_language.xml" value="0.209375" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/layout/fragment_our_address.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/layout/fragment_post_info.xml" value="0.209375" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/layout/fragment_profile.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/layout/fragment_settings.xml" value="0.209375" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/layout/fragment_splash.xml" value="0.209375" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/layout/fragment_start_language.xml" value="0.209375" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/layout/fragment_start_location.xml" value="0.1953125" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/layout/fragment_tasbeeh.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/layout/fragment_useful.xml" value="0.209375" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/layout/home_item_news.xml" value="0.209375" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/layout/home_item_posts.xml" value="0.209375" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/layout/item_articles.xml" value="0.209375" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/layout/item_favourite.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.209375" />
+        <entry key="..\:/AndroidStudioProjects/Adepuz/app/src/main/res/menu/post_info_menu.xml" value="0.209375" />
         <entry key="..\:/Users/asadb/AndroidStudioProjects/Adepuz/app/src/main/res/drawable-v24/color_item.xml" value="0.1475" />
         <entry key="..\:/Users/asadb/AndroidStudioProjects/Adepuz/app/src/main/res/drawable-v24/home_item.xml" value="0.1475" />
         <entry key="..\:/Users/asadb/AndroidStudioProjects/Adepuz/app/src/main/res/drawable-v24/home_news_view_bg.xml" value="0.137" />

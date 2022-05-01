@@ -45,7 +45,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/settings"
         app:layout_constraintStart_toStartOf="@+id/settings"
-        app:layout_constraintTop_toBottomOf="@+id/appInfo"
+        app:layout_constraintTop_toBottomOf="@+id/about"
         app:layout_constraintVertical_bias="0.0" />
 
     <View
@@ -121,7 +121,7 @@
             android:fontFamily="@font/milliard_medium"
             android:paddingStart="5dp"
             android:paddingEnd="10dp"
-            android:text="Sozlamalar"
+            android:text="@string/sozlamalar"
             android:textColor="@color/black"
             android:textSize="16.5sp"
             app:drawableEndCompat="@drawable/settings_icon_arrow_right" />
@@ -160,7 +160,7 @@
             android:fontFamily="@font/milliard_medium"
             android:paddingStart="5dp"
             android:paddingEnd="10dp"
-            android:text="Sevimli postlar"
+            android:text="@string/sevimli_postlar"
             android:textColor="@color/black"
             android:textSize="16.5sp"
             app:drawableEndCompat="@drawable/settings_icon_arrow_right" />
@@ -199,7 +199,7 @@
             android:fontFamily="@font/milliard_medium"
             android:paddingStart="5dp"
             android:paddingEnd="10dp"
-            android:text="Privacy Policy"
+            android:text="@string/privacy_policy"
             android:textColor="@color/black"
             android:textSize="16.5sp"
             app:drawableEndCompat="@drawable/settings_icon_arrow_right" />
@@ -238,7 +238,7 @@
             android:fontFamily="@font/milliard_medium"
             android:paddingStart="5dp"
             android:paddingEnd="10dp"
-            android:text="Ulashish"
+            android:text="@string/ulashish"
             android:textColor="@color/black"
             android:textSize="16.5sp"
             app:drawableEndCompat="@drawable/settings_icon_arrow_right" />
@@ -277,14 +277,14 @@
             android:fontFamily="@font/milliard_medium"
             android:paddingStart="5dp"
             android:paddingEnd="10dp"
-            android:text="Bizning manzil"
+            android:text="@string/bizning_manzil"
             android:textColor="@color/black"
             android:textSize="16.5sp"
             app:drawableEndCompat="@drawable/settings_icon_arrow_right" />
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <androidx.appcompat.widget.LinearLayoutCompat
-        android:id="@+id/appInfo"
+        android:id="@+id/about"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
@@ -316,7 +316,7 @@
             android:fontFamily="@font/milliard_medium"
             android:paddingStart="5dp"
             android:paddingEnd="10dp"
-            android:text="Dastur haqida"
+            android:text="@string/dastur_haqida"
             android:textColor="@color/black"
             android:textSize="16.5sp"
             app:drawableEndCompat="@drawable/settings_icon_arrow_right" />

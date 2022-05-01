@@ -7,9 +7,10 @@ import androidx.room.RoomDatabase
 import com.bizmiz.adepuz.helper.PostsDao
 import com.bizmiz.adepuz.model.ArticlesData
 import com.bizmiz.adepuz.model.NewsData
+import com.bizmiz.adepuz.model.PostsData
 import com.bizmiz.adepuz.model.UsefulData
 
-@Database(entities = [ArticlesData::class, NewsData::class, UsefulData::class], version = 1)
+@Database(entities = [ArticlesData::class, NewsData::class, UsefulData::class, PostsData::class], version = 1)
 abstract class PostsDatabase : RoomDatabase() {
     abstract fun postsDao(): PostsDao
 

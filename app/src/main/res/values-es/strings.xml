@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Adep.uz</string>
+    <string name="fajr">Тонг</string>
+    <string name="sunrise">Қуёш</string>
+    <string name="dhuhr">Пешин</string>
+    <string name="asr">Аср</string>
+    <string name="maghrib">Шом</string>
+    <string name="isha">Хуфтон</string>
+    <string name="joylashuvni_olish_uchun_bosing">Жойлашувни олиш учун босинг</string>
+    <string name="maqalalar">Мақолалар</string>
+    <string name="k_birek">Кўпроқ</string>
+    <string name="paydali_postlar">Фойдали постлар</string>
+    <string name="e_so_ja_al_qlar">Енг сўнги янгиликлар</string>
+    <string name="sozlamalar">Созламалар</string>
+    <string name="ulashish">Улашиш</string>
+    <string name="privacy_policy">Махфийлик сиёсати</string>
+    <string name="bizning_manzil">Бизнинг манзил</string>
+    <string name="dastur_haqida">Дастур ҳақида</string>
+    <string name="bas_bet">Бош саҳифа</string>
+    <string name="profile">Профил</string>
+    <string name="iyman">Иймон</string>
+    <string name="namaz">Номоз</string>
+    <string name="oroza">Рўза</string>
+    <string name="zakat">Закот</string>
+    <string name="xaj">Ҳаж</string>
+    <string name="sevimli_postlar">Севимли постлар</string>
+    <string name="ilova_versiyasi_1_0_0">Илова версияси: 1.0.0</string>
+    <string name="dasturchi_satimov_a">Дастурчи: @Satimov_A</string>
+    <string name="til">Тил</string>
+    <string name="o_zbek_lotin">Ўзбек (Лотин)</string>
+    <string name="qaraqalpaq_lotin">Қорақалпоқ (Лотин)</string>
+    <string name="o_zbek_krill">Ўзбек (Крилл)</string>
+    <string name="qaralpaq_krill">Қорақалпоқ (Крилл)</string>
+    <string name="internet_net">Интернетга уланмагансиз</string>
+    <string name="net_location">Жойлашув олинмади!</string>
+    <string name="saralangan_postlar_yo_q">Сараланган постлар йўқ</string>
+    <string name="net_information">Малумот йўқ</string>
+    <string name="name">"Тахиатош тумани Кенегес ОФЙ Кенегес овул 59-уй \"Муҳаммад Мурод eшон\" жоме масжиди"</string>
+    <string name="besh_ustun">Беш устун</string>
+    <string name="jami">"Жами: "</string>
+</resources>
